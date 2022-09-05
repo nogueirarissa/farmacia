@@ -21,7 +21,7 @@ public class Produto {
 	private Long id;
 	
 	@NotNull
-	private String nome_produto;
+	private String nome;
 	
 	@NotNull
 	private String marca;
@@ -54,12 +54,12 @@ public class Produto {
 		this.id = id;
 	}
 
-	public String getNome_produto() {
-		return nome_produto;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setNome_produto(String nome_produto) {
-		this.nome_produto = nome_produto;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public String getMarca() {
